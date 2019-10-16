@@ -1,0 +1,17 @@
+body {
+    background-color: #1d2124;
+}
+
+form label {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#validation-rules, #conditions {
+    font-size: 0.6em;
+}
+
+form button {
+    height: 60px;
+    font-size: 0.1em;
+}

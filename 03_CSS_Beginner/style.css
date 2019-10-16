@@ -1,0 +1,51 @@
+.blue-group {
+    color: blue;
+    text-align: center;
+}
+
+ul strong {
+    color: yellow;
+}
+
+li strong {
+    color: purple;
+}
+
+ul li strong {
+    color: teal;
+}
+
+li#fourth {
+    color: green;
+}
+
+li #fourth {
+    color: steelblue;
+}
+
+li.first {
+    color: orange;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+a {
+    color: orange;
+}
+
+a:visited, a:focus {
+    color: darkred;
+}
+
+/*
+
+Comments On CSS!
+
+*/

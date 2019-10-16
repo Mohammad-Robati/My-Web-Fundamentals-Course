@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+section {
+    border-bottom: solid #222 8px;
+}
+
+#opening {
+    background-image: url("../src/background.jpg");
+    background-repeat: no-repeat;
+    height: 180vh;
+    margin-top: -20px
+}
+
+#opening-content {
+    padding-top: 100px;
+}
+
+#brand {
+    width: 120px;
+}
+
+#sign-in-button {
+    width: 55px;
+    height: 25px;
+    padding: 0;
+    font-size: 0.8em;
+    border-radius: 2px;
+}
+
+
+#capsule {
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 30px;
+    border-radius: 500px;
+    position: relative;
+    background: -webkit-gradient(linear,left top,right top,color-stop(10%,#00d65f),color-stop(50%,#308234),color-stop(50%,#3f3f3f),color-stop(85%,#3f3f3f),to(rgba(63,63,63,0)));
+    background: -webkit-linear-gradient(left,#00d65f 10%,#308234 50%,#3f3f3f 50%,#3f3f3f 85%,rgba(63,63,63,0) 100%);
+    background: -o-linear-gradient(left,#00d65f 10%,#308234 50%,#3f3f3f 50%,#3f3f3f 85%,rgba(63,63,63,0) 100%);
+    background: linear-gradient(to right,#00d65f 10%,#308234 50%,#3f3f3f 50%,#3f3f3f 85%,rgba(63,63,63,0) 100%);
+}
+
+#capsule::before {
+    content: '';
+    width: 1.9em;
+    height: 1.9em;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#capsule::after {
+    content: '';
+    left: 85%;
+    width: 1.9em;
+    height: 1.9em;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#env-splitter {
+    position: absolute;
+    left: 40%;
+    height: 45px;
+    outline: solid black 2px;
+    border-left: solid white 1.5px;
+
+}
+
+#envelope {
+    position: absolute;
+    left: 41%;
+}
+
+#video1 {
+    z-index: -1;
+    top: 20%;
+    left: 16%;
+}
+
+
+#video2 {
+    top: -5%;
+    left: 20%;
+    z-index: -1;
+    width: 59%;
+}
+
+#mobile-pic {
+    top: -20px;
+    left: 0;
+}
+
+#mobile-panel {
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+    border: solid #6c757d;
+    background-color: black;
+    top: 160px;
+    left: 50%;
+    right: 50%;
+    margin-left: -125px;
+}
+
+.faq-item {
+    border-radius: 0;
+    margin: 5px;
+}
+
+.faq-item .card-header {
+    cursor: pointer;
+}
+
+
+
+.my-link:hover {
+    border-bottom: solid #a6a6a6 0.5px;
+    cursor: pointer;
+}

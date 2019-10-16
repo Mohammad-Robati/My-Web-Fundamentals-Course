@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.flex {
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkslategrey;
+    margin: 10px;
+}
+
+#buttons {
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

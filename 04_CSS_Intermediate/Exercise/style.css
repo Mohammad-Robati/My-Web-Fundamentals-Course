@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.contents {
+    width: 400px;
+    margin: auto;
+}
+
+#tv {
+    width: inherit;
+    /* OR width: 400px; */
+}
+
+#video {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: -1;
+}

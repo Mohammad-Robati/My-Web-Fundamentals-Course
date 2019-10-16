@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #ff363f, #fcffc9);
+    font-size: 15px;
+    color: white;
+}
+
+#todo-box {
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+
+.todo-content {
+    padding: 10px;
+}
+
+.todo-item {
+    width: inherit;
+    background-color: #e2e2e2;
+    margin: 3px;
+    color: black;
+}
+
+input {
+    width: 176px;
+    padding: 10px;
+}
+
+#todo-header {
+    background-color: #4360eb;
+    color: white;
+}
+
+#todo-header img {
+    float: right;
+}
+
+.trash {
+    float: right;
+    margin-top: -2px;
+    display: none;
+}

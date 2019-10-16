@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More On Html</title>
+</head>
+<body>
+
+    <!--Table-->
+
+        <h1 style="color: red;
+             border-bottom: 2px solid;
+              width: 400px;
+              text-align: center;
+               padding-bottom: 10px;"> Table </h1>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Month </th>
+                        <th>Savings </th>
+                        <th>Savings </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January </td>
+                        <td>$100 </td>
+                    </tr>
+                </tbody>
+            </table>
+
+    <!--iframe-->
+
+        <h1 style="color: red;
+             border-bottom: 2px solid;
+              width: 400px;
+              text-align: center;
+               padding-bottom: 10px;
+                margin-top: 100px"> Iframe </h1>
+
+        <iframe
+                src="https://docs.google.com/present/embed?id=dggjrx3s_2119zdj9k4cf"
+                width="410" height="342"></iframe>
+
+    <!--Video-->
+
+        <h1 style="color: red;
+             border-bottom: 2px solid;
+              width: 400px;
+              text-align: center;
+               padding-bottom: 10px;
+                margin-top: 100px"> Video </h1>
+
+        <video width="400" controls>
+            <source src="mov_bbb.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+
+    <!--Forms-->
+
+        <h1 style="color: red;
+             border-bottom: 2px solid;
+              width: 400px;
+              text-align: center;
+               padding-bottom: 10px;
+                margin-top: 100px"> Forms </h1>
+
+        <form action="/pictures" method="post">
+            <fieldset>
+                <legend>My Form:</legend>
+                <label for="username">Username: </label>
+                <input id="username" name="username" placeholder="Username" type="text">
+                <br>
+                <br>
+
+                <label for="email">Email: </label>
+                <input id="email" name="email" placeholder="Email" type="email">
+                <br>
+                <br>
+
+                <label for="password">Password: </label>
+                <input id="password" name="password" placeholder="Password" type="password">
+                <br>
+                <br>
+
+                <table border="1">
+                    <thead>
+                    <tr>
+                        <th>Month </th>
+                        <th>Savings </th>
+                        <th>Savings </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>January </td>
+                        <td>$100 </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <label for="radioButtons">Genre:</label>
+                <div id="radioButtons">
+                    <input type="radio" name="genre" value="male"> Horror<br>
+                    <input type="radio" name="genre" value="female"> Adventure<br>
+                    <input type="radio" name="genre" value="other"> Comedy
+                </div>
+
+                <input type="submit" value="Submit!">
+
+
+
+                <label for="select">Select Menu (Dropdown): </label>
+                <select name="nameOfTheMovie" id="select">
+                    <option value="1">Sorcerer's Stone</option>
+                    <option value="2" selected>Chamber Of Secrets</option>
+                    <option value="3">Prisoner Of Azkaban</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="spinner">Spinner:</label>
+                <input id="spinner" type="number" step="500">
+                <br>
+                <br>
+
+                <label for="slider">Slider (Range):</label>
+                <input id="slider" type="range" value="50">
+                <br>
+                <br>
+
+                <br>
+
+                <label for="checkBoxes">Movies:</label>
+                <div id="checkBoxes">
+                    <input type="checkbox" name="movie" value="male"> Curse Of Black Pearl<br>
+                    <input type="checkbox" name="movie" value="female"> Dead Man's Chest<br>
+                    <input type="checkbox" name="movie" value="other"> At World's End
+                </div>
+                <br>
+
+                <label for="color">Color:</label>
+                <div id="color">
+                    <input type="color" name="color">
+                </div>
+                <br>
+
+                <label for="description">
+                    <textarea id="description" name="description"
+                              cols="30" rows="10" placeholder="description">Lorem ipsum dolor sit amet</textarea>
+                </label>
+                <br>
+                <br>
+
+                <!--<button>Submit</button>-->
+            </fieldset>
+        </form>
+</body>
+</html>
